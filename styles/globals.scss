@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap");
+
+@import url("/assets/vendor/animate.css/animate.min.css");
+@import url("/assets/vendor/aos/aos.css");
+@import url("/assets/vendor/bootstrap/css/bootstrap.min.css");
+@import url("/assets/vendor/bootstrap-icons/bootstrap-icons.css");
+@import url("/assets/vendor/boxicons/css/boxicons.min.css");
+@import url("/assets/vendor/glightbox/css/glightbox.min.css");
+@import url("/assets/vendor/swiper/swiper-bundle.min.css");
+
+@import url("/assets/css/style.css");
+
+body {
+  background-color: #161616;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: white;
+  }
+
+  p,
+  li {
+    color: rgb(218, 218, 218);
+  }
+}
+
+// html,
+// body {
+//   padding: 0;
+//   margin: 0;
+//   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+//     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+//   background-color: #161616;
+
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   height: 100vh;
+// }
+
+// a {
+//   color: inherit;
+//   text-decoration: none;
+// }
+
+// * {
+//   box-sizing: border-box;
+// }
+
+// h1 {
+//   color: white;
+//   text-align: center;
+// }
+
+// p {
+//   color: white;
+//   opacity: 0.3;
+//   text-align: center;
+// }
