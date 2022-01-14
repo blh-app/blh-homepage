@@ -1,23 +1,38 @@
 .header {
   position: fixed;
   top: 0px;
-  width: 100vw;
+  width: 100%;
+  height: var(--header-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  z-index: 100;
   header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
   }
 }
 
 .logo {
+  h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   a {
+    font-family: "Exo", sans-serif;
+
     color: white;
-    text-decoration: none;
-    font-size: 26px;
-    font-family: "Noto Sans JP", sans-serif;
+    text-decoration: none !important;
+    font-size: 30px;
     letter-spacing: 2px;
+    font-weight: 500;
     text-shadow: 1px 1px hsl(50, 50%, 45%), 2px 2px hsl(50, 50%, 40%),
       3px 3px hsl(50, 50%, 35%), 4px 4px hsl(50, 50%, 34%),
       5px 5px hsl(50, 50%, 33%), 6px 6px hsl(50, 50%, 32%),
@@ -40,10 +55,12 @@
       a {
         color: white;
         text-transform: uppercase;
-        padding: 10px 3vw;
-        text-decoration: none;
+        padding: 10px 2vw;
+        margin: 0px 1vw;
+        transition: all 0.3s ease-in-out;
         &:hover {
-          text-decoration: underline;
+          background: var(--color-2);
+          border-radius: 3px;
         }
       }
     }

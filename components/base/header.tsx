@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <div className={s.header}>
-      <header className="container" data-aos="fade-up">
+      <header>
         <div className={s.logo}>
           <h1>
             <Link href="/">
@@ -26,7 +26,7 @@ const Header = () => {
           </h1>
         </div>
 
-        <nav id="navbar" className={s.navbar}>
+        <nav className={s.navbar}>
           <ul>
             <li onClick={() => onRedicrect(0)}>
               <Link href="/">
@@ -40,7 +40,7 @@ const Header = () => {
             </li>
             <li onClick={() => onRedicrect(0)}>
               <Link href="/blog">
-                <a className={`${getActiveLink(0)}`}>Blog</a>
+                <a className={`${getActiveLink(0)}`}>Articles</a>
               </Link>
             </li>
           </ul>
