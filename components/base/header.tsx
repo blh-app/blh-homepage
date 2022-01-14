@@ -21,7 +21,9 @@ const Header = () => {
         <div className={s.logo}>
           <h1>
             <Link href="/">
-              <a>BLH</a>
+              <a>
+                BLH<span>. </span>
+              </a>
             </Link>
           </h1>
         </div>
