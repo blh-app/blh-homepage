@@ -41,14 +41,14 @@ export const Privacy: NextPage = () => {
         Grundlage hierfür ist Art. 7 Abs. 3 DSGVO. Ihre Rechte Sie haben
         gegenüber uns folgende Rechte hinsichtlich der Sie betreffenden
         personenbezogenen Daten: Das Recht auf Auskunft, Das Recht auf
-        Berichtigung oder Löschung ("Recht auf Vergessenwerden"), Das Recht auf
-        Einschränkung der Verarbeitung, Das Recht auf Widerspruch gegen die
-        Verarbeitung, Das Recht auf Datenübertragbarkeit, Das Recht, nicht einer
-        ausschließlich auf einer automatisierten Verarbeitung – einschließlich
-        Profiling – beruhenden Entscheidung unterworfen zu werden, die ihr
-        gegenüber rechtliche Wirkung entfaltet oder sie in ähnlicher Weise
-        erheblich beeinträchtigt. Sie haben zudem das Recht, sich bei einer
-        Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer
+        Berichtigung oder Löschung (&quot;Recht auf Vergessenwerden&quot;), Das
+        Recht auf Einschränkung der Verarbeitung, Das Recht auf Widerspruch
+        gegen die Verarbeitung, Das Recht auf Datenübertragbarkeit, Das Recht,
+        nicht einer ausschließlich auf einer automatisierten Verarbeitung –
+        einschließlich Profiling – beruhenden Entscheidung unterworfen zu
+        werden, die ihr gegenüber rechtliche Wirkung entfaltet oder sie in
+        ähnlicher Weise erheblich beeinträchtigt. Sie haben zudem das Recht,
+        sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer
         personenbezogenen Daten durch uns zu beschweren. Sie können Ihre Rechte
         wahrnehmen über unserere E-Mail an: E-Mail:
         <span data-nosnippet>leon.borlinghaus@gmail.com</span>
@@ -65,13 +65,13 @@ export const Privacy: NextPage = () => {
 
       <h2>Cookies / Local Storage</h2>
       <p>
-        Wir setzen teilweise auf Cookies bzw. speichern Daten im 'Local Storage'
-        Ihres Browsers. Wir setzen die Technologie ein um Sie beim nächsten
-        Besuch unserer Webseite wiederzuerkennen. Die Rechtsgrundlage für diese
-        Verarbeitung bildet Art. 6 Abs. 1 lit. f DSGVO (Berechtigtes Interesse).
-        Sie können das Speichern von Cookies und das Speichern im 'Local
-        Storage' verhindern, indem Sie die entsprechenden Einstellungen in Ihrem
-        Browser vornehmen.
+        Wir setzen teilweise auf Cookies bzw. speichern Daten im &quot;Local
+        Storage&quot; Ihres Browsers. Wir setzen die Technologie ein um Sie beim
+        nächsten Besuch unserer Webseite wiederzuerkennen. Die Rechtsgrundlage
+        für diese Verarbeitung bildet Art. 6 Abs. 1 lit. f DSGVO (Berechtigtes
+        Interesse). Sie können das Speichern von Cookies und das Speichern im
+        &quot;Local Storage&quot; verhindern, indem Sie die entsprechenden
+        Einstellungen in Ihrem Browser vornehmen.
       </p>
 
       <h2>Protokolldaten</h2>
@@ -96,9 +96,11 @@ export const Privacy: NextPage = () => {
         https://policies.google.com/?hl=de. Der Anbieter ist dem
         Privacy-Shield-Abkommen beigetreten. Dieses Abkommen stellt eine
         Garantie gem. Art. 46 DSGVO dar.
-        https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active.
-        Sie können der Datenverarbeitung widersprechen, indem Sie im
-        Datenschutzcenter Ihre persönlichen Datenschutz-Einstellungen anpassen,
+        <a href="https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active">
+          https://www.privacyshield.gov
+        </a>
+        . Sie können der Datenverarbeitung widersprechen, indem Sie im Da
+        tenschutzcenter Ihre persönlichen Datenschutz-Einstellungen anpassen,
         welche hier abrufbar sind: https://adssettings.google.com/authenticated.
         Wir verarbeiten mit dieser Technologie IT-Nutzungsdaten wie (z.B.
         IP-Adressen, Standortdaten).

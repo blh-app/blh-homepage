@@ -72,10 +72,7 @@ export const Imprint: NextPage = () => {
         wir derartige Inhalte umgehend entfernen.
         <br></br>
         Quelle:{" "}
-        <a
-          href="https://www.e-recht24.de/impressum-generator.html"
-          target={"_blank"}
-        >
+        <a href="https://www.e-recht24.de/impressum-generator.html">
           https://www.e-recht24.de/impressum-generator.html
         </a>
          
