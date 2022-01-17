@@ -13,24 +13,12 @@ type GetPageParams = {
   limit?: number
 };
 
-
-type Data = {
-  name: string
-}
-
-export default function handler(
-  req: NextApiRequest,
-  res: NextApiResponse<Data>
-) {
  
-  res.status(200).json({ name: 'John Doe' })
-}
-
-export async function getBlogPosts(params: GetPageParams = {}) {
+export async function getProjects(params: GetPageParams = {}) {
   const query = { 
     // locale: params.locale,
     // 'fields.slug': params.slug,
-    content_type: 'blogPost',
+    content_type: 'project',
     order: '-fields.created',
     // 'fields.content.sys.contentType.sys.id': params.pageContentType,
     ...params
