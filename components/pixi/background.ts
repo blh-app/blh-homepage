@@ -5,6 +5,7 @@ import { randomInteger } from "./helper";
 export class Background {
   private app: Application;
   private ticker: Ticker = new Ticker();
+  private interval: any;
 
   public constructor() {
     console.log(document?.getElementById("pixi"));
@@ -20,8 +21,6 @@ export class Background {
     });
 
     this.init();
-
-    this.keybinds();
   }
 
   init() {
@@ -33,7 +32,30 @@ export class Background {
     var timesPerSecond = 5; // how many times to fire the event per second
     var wait = false;
 
+    this.interval = setInterval(() => {
+      const x = randomInteger(100, window.innerWidth - 300);
+      const y = 100;
+
+      this.spawnCirle({ x, y });
+      setTimeout(() => {
+        this.spawnCirle({ x, y });
+      }, 50);
+      setTimeout(() => {
+        this.spawnCirle({ x, y });
+      }, 100);
+
+      new Array(10).fill(0).map((a, i) => {
+        setTimeout(() => {
+          this.spawnClick({ x, y });
+        }, 10 * i);
+      });
+    }, 200);
+
     this.app.stage.on("mousemove", (e: any) => {
+      if (this.interval) {
+        clearInterval(this.interval);
+      }
+
       const { x, y } = e.data.global;
 
       if (!wait) {
@@ -138,14 +160,5 @@ export class Background {
     };
 
     this.ticker.add(animation);
-  }
-
-  keybinds() {
-    document.addEventListener("keydown", (event) => {
-      if (event.keyCode == 32) {
-        console.log("spacebar");
-        event.preventDefault();
-      }
-    });
   }
 }
