@@ -9,7 +9,7 @@ export const ArticlessSection: FunctionComponent<Props> = ({ blogPosts }) => {
   console.log("blogPosts", blogPosts);
 
   return (
-    <div className={s.articles}>
+    <div className={s.articles} data-aos="fade-left">
       {blogPosts.map((p, pi) => {
         return (
           <div key={pi} className={s.article}>

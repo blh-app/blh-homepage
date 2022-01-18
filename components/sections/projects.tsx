@@ -8,7 +8,7 @@ type Props = {
 export const ProjectsSection: FunctionComponent<Props> = ({ projects }) => {
   console.log("projects", projects);
   return (
-    <div className={s.projects}>
+    <div className={s.projects} data-aos="fade-left">
       {projects.map((p, pi) => {
         return (
           <div key={pi} className={s.project}>

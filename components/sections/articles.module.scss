@@ -1,10 +1,12 @@
 .articles {
   display: grid;
-
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  gap: 30px;
 }
 
 .article {
+  position: relative;
+  z-index: 5;
   background-color: var(--color-2);
   border-radius: 3px;
   cursor: pointer;
