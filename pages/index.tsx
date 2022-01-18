@@ -14,7 +14,7 @@ type Props = {
 
 const Home: NextPage<Props> = ({ projects, blogPosts }) => {
   return (
-    <DefaultLayout>
+    <DefaultLayout heroAnimation={true}>
       <HeroSection>
         W<span>3</span>lcome
       </HeroSection>

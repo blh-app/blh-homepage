@@ -1,7 +1,10 @@
 import s from "./hero.module.scss";
-import { FunctionComponent } from "react";
+import { FunctionComponent, useEffect } from "react";
+import { FixedTop } from "../pixi/fixed-top";
+import dynamic from "next/dynamic";
 
 type Props = {};
+const Pixi = dynamic(() => import("../pixi/pixi"), { ssr: false });
 
 export const HeroSection: FunctionComponent<Props> = ({ children }) => {
   return (

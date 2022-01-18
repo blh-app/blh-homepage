@@ -12,7 +12,13 @@ function MyApp({ Component, pageProps }: AppProps) {
       offset: 50,
     });
   }, []);
-  return <Component {...pageProps} />;
+  return (
+    <div>
+      <canvas id="pixi-bg"></canvas>
+      <canvas id="pixi-top"></canvas>
+      <Component {...pageProps} />
+    </div>
+  );
 }
 
 export default MyApp;
