@@ -6,6 +6,7 @@ export class FixedTop {
   private app: Application;
   private ticker: Ticker = new Ticker();
   private interval: any;
+  public isVisible: boolean = false;
 
   public constructor(canvas: HTMLCanvasElement) {
     this.app = new Application({
@@ -22,6 +23,7 @@ export class FixedTop {
   }
 
   init() {
+    this.isVisible = true;
     document.body.appendChild(this.app.view);
 
     this.ticker.start();
@@ -128,11 +130,14 @@ export class FixedTop {
   }
 
   hide() {
-    this.app.stage.alpha = 0;
-    this.app.stop();
+    console.log("hide");
+    this.app.stage.alpha = 0.5;
+    clearInterval(this.interval);
+    this.isVisible = false;
   }
   show() {
     this.app.stage.alpha = 1;
     this.app.start();
+    this.init();
   }
 }

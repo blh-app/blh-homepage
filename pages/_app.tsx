@@ -14,8 +14,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   }, []);
   return (
     <div>
-      <canvas id="pixi-bg"></canvas>
-      <canvas id="pixi-top"></canvas>
       <Component {...pageProps} />
     </div>
   );
