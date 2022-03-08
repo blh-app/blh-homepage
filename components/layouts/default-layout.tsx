@@ -6,7 +6,6 @@ import dynamic from "next/dynamic";
 import Head from "next/head";
 
 type Props = { heroAnimation?: boolean };
-
 const Pixi = dynamic(() => import("../pixi/pixi"), { ssr: false });
 
 export const DefaultLayout: FunctionComponent<Props> = ({
