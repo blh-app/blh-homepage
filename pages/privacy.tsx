@@ -106,25 +106,6 @@ export const Privacy: NextPage = () => {
         IP-Adressen, Standortdaten).
       </p>
 
-      <h2>Google Fonts</h2>
-      <p>
-        Auf dieser Internetseite werden externe Schriften, Google Fonts
-        verwendet. Google Fonts ist ein Dienst der Google LLC. (Google LLC 1600
-        Amphitheatre Parkway Mountain View, CA 94043). Wir setzen die
-        Technologie ein um die Darstellung auf unserer Website zu verbessern.
-        Die Rechtsgrundlage für diese Verarbeitung bildet Art. 6 Abs. 1 lit. f
-        DSGVO (Berechtigtes Interesse). Die Datenschutzerklärung des Anbieters
-        finden Sie hier: https://policies.google.com/privacy?hl=de. Der Anbieter
-        ist dem Privacy-Shield-Abkommen beigetreten. Dieses Abkommen stellt eine
-        Garantie gem. Art. 46 DSGVO dar.
-        https://www.privacyshield.gov/participant?id=a2zt000000001L5AAI&status=Active.
-        Die Einbindung dieser Web Fonts erfolgt durch einen Serveraufruf, in der
-        Regel ein Server von Google in den USA. Hierdurch wird an den Server
-        übermittelt, welche unserer Internetseiten Sie besucht haben. Auch wird
-        die IP-Adresse des Browsers des Endgerätes des Besuchers dieser
-        Internetseiten von Google gespeichert.
-      </p>
-
       <h2>Google Analytics</h2>
       <p>
         Diese Website nutzt den Dienst „Google Analytics“, welcher von der
