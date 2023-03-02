@@ -26,6 +26,14 @@ export const DefaultLayout: FunctionComponent<Props> = ({
       <div className={s.body}>{children}</div>
       <Footer></Footer>
       <Pixi heroAnimation={heroAnimation}></Pixi>
+
+      <noscript>
+        <img src="https://shynet.blh.app/ingress/f1d54a94-4650-4998-b86f-180bf257727d/pixel.gif" />
+      </noscript>
+      <script
+        defer
+        src="https://shynet.blh.app/ingress/f1d54a94-4650-4998-b86f-180bf257727d/script.js"
+      ></script>
     </div>
   );
 };
